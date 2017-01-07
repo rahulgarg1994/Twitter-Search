@@ -1,0 +1,15 @@
+body {background-image: url(https://i.imgsafe.org/0b0534b042.png); background-repeat: repeat;margin: 0;}
+.flr{float: right;}
+.tweetList{background: white; padding: 2%; width: 42%; display: inline-block;margin: 2%; border-radius: 10px;}
+.author{padding: 1% 0; font-size: 0.9em; color: #808080;}
+.proPic{float: left; margin-right: 3%; border-radius: 50%;}
+.tweetText{height: 90px; font-size: 1.1em;word-break: break-word}
+.tweetInfo{font-size: 0.9em; color: #808080;}
+.tweetUser{border-bottom: 1px solid #808080; padding-bottom: 15px;}
+.hide{display: none;}
+.loader{width: 20%;  margin: auto;display: flex;}
+#tweets{padding: 0; list-style: none;}
+.tweetHead{text-align: center;font-size: 1.6em}
+@media only screen and (max-width: 650px) {
+    .tweetList{width: initial;}
+}
